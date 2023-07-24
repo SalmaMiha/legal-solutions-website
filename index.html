@@ -56,7 +56,7 @@
   <body>
     <header class="container mx-auto">
       <!-- navbar -->
-      <div class="navbar bg-base-100 px-44 py-4font-poppins">
+      <div class="navbar bg-base-100 lg:px-44 py-4 font-poppins">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -165,7 +165,7 @@
       </div>
 
       <!-- banner -->
-      <div class="px-40 py-10">
+      <div class="lg:px-40 py-10">
         <div
           class="hero py-20"
           style="background-image: url('images/banner.png')"
@@ -186,7 +186,7 @@
                 class="input text-sm input-bordered w-full max-w-xs font-poppins bg-white"
               />
               <button
-                class="btn ml-2 bg-btn-color border-0 text-white font-poppins"
+                class="btn mt-3 lg:mt-0 lg:ml-2 bg-btn-color border-0 text-white font-poppins"
               >
                 Search
               </button>
@@ -197,8 +197,8 @@
     </header>
     <main class="container mx-auto">
       <!-- legal practice area section -->
-      <section class="mx-40 my-12">
-        <div class="px-36">
+      <section class="lg:mx-40 my-12">
+        <div class="px-12 lg:px-36">
           <h2 class="font-garamond text-center text-3xl font-extrabold">
             The Legal Practice Area
           </h2>
@@ -209,7 +209,9 @@
           </p>
         </div>
         <!-- law card container -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+        <div
+          class="grid mx-4 lg:mx-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10"
+        >
           <!-- card 1 -->
           <div
             class="card hover:bg-gradient-to-b hover:from-grey-color hover:to-white"
@@ -234,7 +236,6 @@
                 </button>
               </div>
             </div>
-            <hr />
           </div>
           <!-- card 2 -->
           <div
@@ -260,7 +261,6 @@
                 </button>
               </div>
             </div>
-            <hr />
           </div>
           <!-- card 3 -->
           <div
@@ -288,7 +288,6 @@
                 </button>
               </div>
             </div>
-            <hr />
           </div>
           <!-- card 4 -->
           <div
